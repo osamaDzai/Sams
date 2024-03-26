@@ -1,65 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page Pendaftaran Anggota Organisasi Kampus</title>
-  <!-- Import Google font - Poppins -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
-  <!-- Slick Carousel CSS -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
-  <!-- Custom CSS File -->
-  <link rel="stylesheet" href="assets/css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Page Pendaftaran Anggota Organisasi Kampus</title>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <nav class="navbar">
-    <div class="container">
-      <h1 class="logo">Organisasi Kampus</h1>
-      <ul class="nav-links">
-        <li><a href="#">Beranda</a></li>
-        <li><a href="#">Tentang Kami</a></li>
-        <li><a href="#">Acara</a></li>
-        <li><a href="#">Kontak</a></li>
-      </ul>
-    </div>
-  </nav>
 
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Selamat Datang di Organisasi Kampus</h1>
-      <p>Daftarkan dirimu sekarang untuk menjadi bagian dari komunitas kami!</p>
-      <a href="form.html" class="btn">Daftar Sekarang</a>
-      <a href="jsdasar.html" class="btn">JSDasar</a>
-      <a href="productapi.html" class="btn">Productapi</a>
-    </div>
-  </section>
-  
-  <section class="carousel">
-    <div class="slider">
-      <div><img src="assets/picture/a.jfif" alt="Slide 1"></div>
-      <div><img src="assets/picture/b.jfif" alt="Slide 2"></div>
-      <div><img src="assets/picture/c.jfif" alt="Slide 3"></div>
-    </div>
-  </section>
-  a
-  
-  
+<nav class="navbar">
+  <div class="container">
+    <h1 class="logo">Organisasi Kampus</h1>
+    <ul class="nav-links">
+      <li><a href="#">Beranda</a></li>
+      <li><a href="#">Tentang Kami</a></li>
+      <li><a href="#">Acara</a></li>
+      <li><a href="#">Kontak</a></li>
+      <li><a href="login-responsive.html">Login</a></li>
+      <li><a href="product-responsive.html">Produk</a></li>
+    </ul>
+  </div>
+</nav>
 
-  <!-- jQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <!-- Slick Carousel JS -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-  <!-- Custom JavaScript -->
-  <script>
-    $(document).ready(function(){
-      $('.slider').slick({
-        autoplay: true,
-        autoplaySpeed: 3000,
-        dots: true,
-        arrows: false
-      });
+<section class="hero">
+  <div class="hero-content">
+    <h1>Selamat Datang di Organisasi Kampus</h1>
+    <p>Daftarkan dirimu sekarang untuk menjadi bagian dari komunitas kami!</p>
+    <a href="form.html" class="btn">Daftar Sekarang</a>
+  </div>
+</section>
+
+<section class="carousel">
+  <div class="slider">
+    <div><img src="assets/picture/a.jfif" alt="Slide 1"></div>
+    <div><img src="assets/picture/b.jfif" alt="Slide 2"></div>
+    <div><img src="assets/picture/c.jfif" alt="Slide 3"></div>
+  </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.slider').slick({
+      autoplay: true,
+      autoplaySpeed: 3000,
+      dots: true,
+      arrows: false
     });
-  </script>
+  });
+</script>
+
 </body>
 </html>
